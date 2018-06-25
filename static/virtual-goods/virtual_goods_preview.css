@@ -1,0 +1,121 @@
+img {
+  width: 100%;
+}
+.preview-wrap {
+  position: relative;
+  width: 392px;
+  height: 667px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 5px #ccc;
+}
+.preview-wrap .preview-header {
+  width: 375px;
+  height: 64px;
+}
+.preview-wrap .preview-footer {
+  position: absolute;
+  bottom: 0;
+  width: 375px;
+  height: 50px;
+}
+
+.preview-content {
+  position: relative;
+  width: 100%;
+  height: 553px;
+  overflow: hidden;
+}
+.preview-content .jianxi {
+  height: 10px;
+  background-color: #f0f0f0;
+}
+.preview-content .goods-cont {
+  padding: 15px;
+}
+.preview-content .goods-cont .name:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.preview-content .goods-cont .title {
+  float: left;
+  width: 78%;
+  height: 42px;
+  overflow: hidden;
+  border-right: 1px dotted #e7e7e7;
+}
+.preview-content .goods-cont .flag {
+  float: left;
+  width: 20%;
+  height: 42px;
+  text-align: center;
+  line-height: 42px;
+}
+.preview-content .goods-cont .goods-price {
+  margin-top: 15px;
+  font-size: 30px;
+  color: #b78b4a;
+}
+.preview-content .goods-cont .other-price {
+  padding-left: 10px;
+  font-size: 18px;
+  color: #777;
+  text-decoration: line-through;
+}
+.preview-content .goods-cont .goods-service {
+  margin-top: 15px;
+  padding-top: 15px;
+  color: #777;
+  border-top: 1px solid #777;
+}
+.preview-content .goods-cont .goods-service .list {
+  font-size: 12px;
+  margin-right: 5px;
+}
+.preview-content .goods-cont .goods-service .icon {
+  border: 1px solid #777;
+  border-radius: 50%;
+  font-size: 10px;
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+  text-align: center;
+  line-height: 14px;
+}
+.preview-content .goods-detail {
+  padding: 15px;
+}
+.preview-content .goods-detail .list {
+  margin-top: 15px;
+}
+.preview-content .goods-detail .list .term {
+  display: inline-block;
+  width: 100px;
+  vertical-align: top;
+}
+.preview-content .goods-detail .list .desc {
+  display: inline-block;
+  width: 240px;
+}
+.preview-content .goods-detail .detail-pic {
+  margin-top: 35px;
+}
+
+.scrollbox {
+  position: absolute;
+  top: 0;
+  left: 382px;
+  z-index: 10;
+  width: 10px;
+  height: 553px;
+  background: #f0f0f0;
+}
+.scrollbox .scrollBar {
+  position: absolute;
+  left: 1px;
+  width: 8px;
+  height: 50px;
+  border-radius: 6px !important;
+  background: #c2c2c2;
+}
